@@ -1,0 +1,201 @@
+/* COLOURS USED */
+/* #FCE22A */
+/* #D61355 */
+
+/* TITLE */
+
+body {
+    background-color: #FCE22A;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    text-align: center;
+    color: #293462;
+    font-weight: 900;
+}
+
+h2 {
+    font-family: serif;
+    text-align: center;
+    padding: 15px;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #293462;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    list-style: none;
+    float: left;
+    padding: 12px 7px;
+}
+
+.search {
+    margin: 4px 30px;
+    float: right;
+
+}
+
+.search input {
+    padding: 2px 20px;
+    width: 250px;
+    border-radius: 30px;
+    border: solid 2px white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+.navbar i {
+    color: white;
+}
+
+
+.navbar a:hover {
+    color: #FEB139;
+}
+
+/* HOME SECTION */
+
+.home-row {
+    display: flex;
+}
+
+.home-col {
+    width: 50%;
+}
+
+.home-img {
+    width: 44rem;
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: 8px;
+}
+
+.home-head {
+    font-size: 3rem;
+}
+
+.home-info {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px 5px;
+    padding: 10px 83px;
+}
+
+/* CAT SECTION */
+
+.catg {
+    background-color: white;
+    padding: 0px 0px 10px;
+}
+
+.catg-row {
+    display: flex;
+    margin: 5px 15px;
+}
+
+.catg-col {
+    width: 25%;
+}
+
+.catg-head {
+    text-align: center;
+}
+
+.catg-tab-img {
+    height: 180px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.catg-btn {
+    display: block;
+    margin: 15px auto;
+}
+
+.catg-btn:hover {
+    color: #293462;
+    background-color: #FCE22A;
+}
+
+/* OFFER SECTION */
+
+.offer-row {
+    display: flex;
+}
+
+.offer-col {
+    width: 50%;
+}
+
+.offer-img {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 150px;
+}
+
+.offer-info {
+    text-align: center;
+}
+
+/* CART SECTION */
+
+.cart {
+    background-color: white;
+}
+
+.cart-img {
+    display: block;
+    margin: auto;
+    width: 800px;
+}
+
+/* CONTACT US SECTION  */
+
+.contact {
+    margin: 5px 5px;
+}
+
+.contact-head {
+    padding-top: 5px;
+    margin: 5px;
+}
+
+.contact-logo {
+    text-align: center;
+}
+
+.contact-logo i {
+    color: #293462;
+    margin: 20px auto 0;
+    padding: 0px 20px;
+}
+
+.contact p {
+    text-align: center;
+    margin-top: 5px;
+}
